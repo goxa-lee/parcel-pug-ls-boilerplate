@@ -1,0 +1,20 @@
+{
+  "name": "parcel-ls",
+  "version": "1.0.0",
+  "description": "",
+  
+  "scripts": {
+    "start": "parcel src/index.pug --dist-dir dev",
+    "build": "rm -rf ./dist;parcel build ./src/index.pug --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-default": "^2.6.2",
+    "@parcel/core": "^2.6.2",
+    "@parcel/transformer-pug": "^2.6.2",
+    "parcel-transformer-livescript": "^2.0.0"
+  }
+}
